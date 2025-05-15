@@ -49,7 +49,7 @@ sudo mv gsh-darwin-amd64 /usr/local/bin/gsh
 
 #### 驗證安裝
 ```bash
-gsh -h
+gsh
 ```
 
 ---
@@ -78,7 +78,7 @@ sudo mv gsh-linux-amd64 /usr/local/bin/gsh
 
 #### 驗證安裝
 ```bash
-gsh -h
+gsh
 ```
 
 ---
@@ -106,7 +106,7 @@ gsh -h
 
 #### 驗證安裝
 ```cmd
-gsh -h
+gsh
 ```
 
 ---
