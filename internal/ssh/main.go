@@ -350,6 +350,7 @@ func ConnectSSH() error {
 	cmd := fmt.Sprintf("ssh %s@%s -p %s -i %s\n", configData.UserName, configData.HostName, configData.Port, configData.IdentityFile)
 	// 執行 SSH 命令
 	cmdExec := exec.Command("sh", "-c", cmd)
+	cmdExec.Stdin = os.Stdin
 	cmdExec.Stdout = os.Stdout
 	cmdExec.Stderr = os.Stderr
 	err = cmdExec.Run()
