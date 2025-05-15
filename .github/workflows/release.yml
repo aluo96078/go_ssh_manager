@@ -5,6 +5,9 @@ on:
     tags:
       - 'v*'  # 當推送標籤以'v'開頭時觸發，例如 v1.0.0
 
+permissions:
+  contents: write
+
 jobs:
   build:
     name: Build and Release
